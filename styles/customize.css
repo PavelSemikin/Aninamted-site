@@ -9,7 +9,7 @@
   --secondary-font-color: #c59d5f;
   --body-font-color: #515151;
   --main-font: 'Source Sans Pro', sans-serif;
-  --secondary-fonr: 'Herr Von', cursive;
+  --secondary-font: 'Herr Von', cursive;
   --body-font: 'Cabin', sans-serif;
 }
 
@@ -25,6 +25,10 @@ img {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 p {
