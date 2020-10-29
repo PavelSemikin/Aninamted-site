@@ -6,6 +6,10 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 
+.logo-item {
+  color: #ffffff;
+}
+
 .menu {
   display: flex;
   height: 7.2rem;
@@ -71,4 +75,21 @@
 .open .menu::after {
   opacity: 1;
   transform: scale(1);
+}
+
+.menu-items {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  transition: color 0.5s;
+}
+
+.menu-link:hover {
+  color: var(--secondary-font-color);
 }

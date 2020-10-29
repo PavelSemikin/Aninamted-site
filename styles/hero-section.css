@@ -1,0 +1,15 @@
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/lime.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.headding {
+  font-size: 8.5rem;
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
+}
